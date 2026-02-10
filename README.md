@@ -81,11 +81,12 @@ Copilot – Role-based	Very engaging explanation but simplified some technical c
 
 Rating Scale: 1 (Very Poor) to 5 (Excellent)
 
-Platform	Prompt Type	Accuracy	Coherence	Simplicity	Speed	User Experience	Average Score
-ChatGPT	Zero-shot	4	5	5	5	5	4.8
-Gemini	Few-shot	5	4	4	4	4	4.2
-Claude	Chain-of-Thought	5	5	4	3	4	4.2
-Copilot	Role-based	3	5	5	4	5	4.4
+| Platform | Prompt Type      | Accuracy | Coherence | Simplicity | Speed | User Experience | Average Score |
+| -------- | ---------------- | -------- | --------- | ---------- | ----- | --------------- | ------------- |
+| ChatGPT  | Zero-shot        | 4        | 5         | 5          | 5     | 5               | 4.8           |
+| Gemini   | Few-shot         | 5        | 4         | 4          | 4     | 4               | 4.2           |
+| Claude   | Chain-of-Thought | 5        | 5         | 4          | 3     | 4               | 4.2           |
+| Copilot  | Role-based       | 3        | 5         | 5          | 4     | 5               | 4.4           |
 
 
 ## ANALYSIS AND OBSERVATIONS
