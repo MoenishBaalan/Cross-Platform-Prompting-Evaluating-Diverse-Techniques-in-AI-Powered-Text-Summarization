@@ -25,8 +25,10 @@ Response time
 
 Overall user experience
 
+
 ## METHODOLOGY / PROCEDURE
-1. Selection of Article
+
+### 1. Selection of Article
 
 A technical article of approximately 500 words related to Blockchain Technology was chosen for the experiment. The article included the following key concepts:
 
@@ -47,7 +49,7 @@ Each block in the blockchain stores transaction data, a timestamp, and a hash of
 
 Beyond cryptocurrencies, blockchain is used in supply chain tracking, healthcare data management, and smart contracts on platforms such as Ethereum. However, scalability issues and regulatory uncertainty continue to limit widespread adoption. Despite these challenges, blockchain is considered a transformative technology for establishing digital trust.
 
-2. Prompting Techniques Used
+### 2. Prompting Techniques Used
 
 The following prompting strategies were applied to generate summaries:
 
@@ -67,12 +69,13 @@ Two example summaries related to Cloud Computing and AI Ethics were provided bef
 
 “You are a Computer Science lecturer explaining blockchain concepts to first-year students using easy examples.”
 
-3. Platform-wise Execution
+### 3. Platform-wise Execution
 Platform and Prompting Method	Observation
 ChatGPT – Zero-shot	Generated a quick and clear summary but skipped some cryptographic details
 Gemini – Few-shot	Followed the sample pattern well and produced organized output
 Claude – Chain-of-Thought	Delivered a logically structured and technically detailed summary
 Copilot – Role-based	Very engaging explanation but simplified some technical concepts
+
 
 ## EVALUATION CRITERIA
 
@@ -84,6 +87,7 @@ Gemini	Few-shot	5	4	4	4	4	4.2
 Claude	Chain-of-Thought	5	5	4	3	4	4.2
 Copilot	Role-based	3	5	5	4	5	4.4
 
+
 ## ANALYSIS AND OBSERVATIONS
 
 Best Accuracy: Claude (Chain-of-Thought) and Gemini (Few-shot)
@@ -93,6 +97,7 @@ Fastest Output: ChatGPT using Zero-shot prompting
 Most Interactive Explanation: Copilot with Role-based prompting
 
 Most Balanced Educational Summary: Claude with Chain-of-Thought prompting
+
 
 ## CONCLUSION
 
@@ -107,6 +112,7 @@ Gemini’s Few-shot prompting generated well-organized content but required addi
 Copilot’s Role-based prompting enhanced engagement but reduced technical accuracy.
 
 Overall, Claude combined with Chain-of-Thought prompting proved to be the most effective approach for educational text summarization.
+
 
 ## RESULT
 
