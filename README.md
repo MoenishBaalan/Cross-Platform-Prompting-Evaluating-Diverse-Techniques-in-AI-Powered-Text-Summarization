@@ -2,7 +2,7 @@
 
 **Reg No: 212223220057**
 
----
+
 
 ## AIM
 
@@ -10,10 +10,9 @@ The objective of this study is to analyze and compare the performance of differe
 
 ## SCENARIO
 
-Assume you are working as part of a content development team for an educational website that offers concise summaries of technical research papers to undergraduate students.
+Assume you are working as part of a content development team for an educational website that provides concise summaries of technical research papers to undergraduate students.
 
-The task is to generate summaries for a 500-word technical article titled “The Basics of Blockchain Technology” using different AI platforms and prompting strategies.
-The effectiveness of each platform–prompt combination is evaluated based on:
+The task is to generate summaries for a 500-word technical article titled “The Fundamentals of Cloud Computing” using different AI platforms and prompting strategies. The effectiveness of each platform–prompt combination is evaluated based on:
 
 Accuracy of content
 
@@ -25,56 +24,59 @@ Response time
 
 Overall user experience
 
-
-## METHODOLOGY / PROCEDURE
+## METHODOLOGY / PROCEDURE:
 
 ### 1. Selection of Article
 
-A technical article of approximately 500 words related to Blockchain Technology was chosen for the experiment. The article included the following key concepts:
+A technical article of approximately 500 words related to Cloud Computing was chosen for the experiment. The article included the following key concepts:
 
-Meaning and purpose of blockchain
+Definition and importance of cloud computing
 
-Block structure and cryptographic hashing
+Cloud service models (IaaS, PaaS, SaaS)
 
-Consensus techniques
+Deployment models
 
-Practical applications
+Real-world applications
 
-Limitations and challenges
+Challenges and limitations
 
-Input Text Summary (≈500 words):
-The article explains blockchain as a decentralized digital ledger system that records transactions across multiple computers without relying on a central authority. Introduced in 2008 by Satoshi Nakamoto for Bitcoin, blockchain addressed the issue of double spending through cryptographic security.
+Input Text Summary (≈500 words)
 
-Each block in the blockchain stores transaction data, a timestamp, and a hash of the previous block. Any modification in a block alters its hash, breaking the chain and making tampering easily detectable. Consensus mechanisms like Proof of Work and Proof of Stake ensure agreement among network participants. While Proof of Work offers strong security, it consumes high energy.
+The article explains cloud computing as a technology that enables users to access computing resources such as servers, storage, databases, and software over the internet instead of relying on local systems. This model allows organizations to reduce infrastructure costs and scale resources based on demand.
 
-Beyond cryptocurrencies, blockchain is used in supply chain tracking, healthcare data management, and smart contracts on platforms such as Ethereum. However, scalability issues and regulatory uncertainty continue to limit widespread adoption. Despite these challenges, blockchain is considered a transformative technology for establishing digital trust.
+Cloud computing is commonly categorized into three service models: Infrastructure as a Service (IaaS), which provides virtualized hardware resources; Platform as a Service (PaaS), which offers development platforms and tools; and Software as a Service (SaaS), which delivers software applications through web browsers. These services eliminate the need for users to manage physical infrastructure.
+
+The article also discusses deployment models including public cloud, private cloud, hybrid cloud, and community cloud, each offering different levels of control, security, and flexibility. Cloud computing is widely used in industries such as education, healthcare, finance, and e-commerce due to its scalability and accessibility.
+
+However, cloud computing faces challenges such as data security concerns, dependency on internet connectivity, and compliance with regulatory requirements. Despite these limitations, cloud computing continues to play a critical role in modern digital transformation.
 
 ### 2. Prompting Techniques Used
 
 The following prompting strategies were applied to generate summaries:
 
-### Zero-shot Prompt
+#### Zero-shot Prompt
 
 “Summarize the given text in simple language suitable for undergraduate students.”
 
-### Few-shot Prompt
+#### Few-shot Prompt
 
-Two example summaries related to Cloud Computing and AI Ethics were provided before requesting the blockchain summary.
+Two example summaries related to Artificial Intelligence and Cybersecurity were provided before requesting the cloud computing summary.
 
-### Chain-of-Thought Prompt
+#### Chain-of-Thought Prompt
 
-“Identify the definition of blockchain, explain its components, describe applications and challenges, and then create a structured summary.”
+“Identify the definition of cloud computing, explain service and deployment models, describe applications and challenges, and then generate a structured summary.”
 
-### Role-based Prompt
+#### Role-based Prompt
 
-“You are a Computer Science lecturer explaining blockchain concepts to first-year students using easy examples.”
+“You are a Computer Science lecturer explaining cloud computing concepts to first-year students using simple examples.”
 
 ### 3. Platform-wise Execution
-Platform and Prompting Method	Observation
-ChatGPT – Zero-shot	Generated a quick and clear summary but skipped some cryptographic details
-Gemini – Few-shot	Followed the sample pattern well and produced organized output
-Claude – Chain-of-Thought	Delivered a logically structured and technically detailed summary
-Copilot – Role-based	Very engaging explanation but simplified some technical concepts
+| Platform and Prompting Method | Observation                                                                   |
+| ----------------------------- | ----------------------------------------------------------------------------- |
+| ChatGPT – Zero-shot           | Produced a fast and clear summary but lacked deeper service model explanation |
+| Gemini – Few-shot             | Followed example structure and generated well-organized output                |
+| Claude – Chain-of-Thought     | Delivered a logically ordered and technically accurate summary                |
+| Copilot – Role-based          | Very engaging explanation but slightly oversimplified technical terms         |
 
 
 ## EVALUATION CRITERIA
@@ -99,21 +101,19 @@ Most Interactive Explanation: Copilot with Role-based prompting
 
 Most Balanced Educational Summary: Claude with Chain-of-Thought prompting
 
-
 ## CONCLUSION
 
-The experiment clearly demonstrates that the quality of AI-generated summaries depends heavily on the prompting strategy used.
+The experiment clearly demonstrates that the quality of AI-generated summaries strongly depends on the prompting strategy used.
 
-Chain-of-Thought prompting with Claude produced the most structured and informative summaries.
+Chain-of-Thought prompting with Claude produced the most structured and informative summaries
 
-ChatGPT with Zero-shot prompting offered the fastest response but lacked deeper technical details.
+ChatGPT with Zero-shot prompting delivered the fastest response but lacked deeper technical detail
 
-Gemini’s Few-shot prompting generated well-organized content but required additional setup.
+Gemini’s Few-shot prompting generated organized output but required additional setup
 
-Copilot’s Role-based prompting enhanced engagement but reduced technical accuracy.
+Copilot’s Role-based prompting enhanced engagement while reducing technical depth
 
 Overall, Claude combined with Chain-of-Thought prompting proved to be the most effective approach for educational text summarization.
-
 
 ## RESULT
 
